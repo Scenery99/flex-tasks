@@ -1,0 +1,44 @@
+.header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background: papayawhip;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  text-align: center;
+}
+
+.left-links, 
+.right-links{
+  display: flex;
+  gap: 18px;
+ 
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 18px;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  color: blue;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
